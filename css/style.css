@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  height: 50px;
+  width: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: grey;
+}
+
+.hero {
+  position: relative;
+  font-family: "Bebas Neue", cursive;
+}
+
+.heroImg img {
+  height: 500px;
+  width: 100%;
+  filter: brightness(1);
+}
+
+.para {
+  position: absolute;
+  top: 49%;
+  left: 3%;
+  color: rgb(27, 27, 27);
+
+  color: azure;
+}
+.para h2 {
+  font-size: 50px;
+  color: azure;
+}
+.para h4 {
+  font-family: "Roboto" arial;
+  color: rgb(228, 228, 228);
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.para button {
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 8px 30px;
+  border-radius: 20px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+
+.trend {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.trend ul {
+  display: flex;
+}
+.trend li {
+  margin-right: 2px;
+  margin-left: 15px;
+  list-style: none;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(31, 31, 31);
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+  padding: 10px 20px;
+  width: 150px;
+}
+
+.img-container {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 10vh;
+  height: 400px;
+  padding: 0 70px;
+  font-family: "Roboto", sans-serif;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 420px;
+  position: relative;
+  background-color: #f4f4f4;
+}
+.card img {
+  height: 300px;
+  width: 500px;
+}
+.card small {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.card button {
+  color: rgb(17, 17, 17);
+  margin-top: 10px;
+  padding: 6px 20px;
+  font-weight: 600;
+  border: 1px solid grey;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logos ul {
+  display: flex;
+}
+.logos li {
+  list-style: none;
+  margin-right: 20px;
+  padding: 10px 30px;
+}
+.logos li:hover {
+  transition: 0.3s ease transform;
+  cursor: pointer;
+  transform: scale(1.4);
+}
+.logos li img {
+  height: 50px;
+  width: 50px;
+}
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-banner img {
+  width: 720px;
+  height: 300px;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 3%;
+}
+.owl-dot {
+  display: inline-block;
+  height: 20px !important;
+  width: 20px !important;
+  background-color: #f4f4f4;
+  opacity: 0.8;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+.owl-controls {
+  display: flex;
+}
+.owl-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 2rem;
+}
+.owl-carousel {
+  margin-bottom: 10px;
+}
+#slider {
+  height: 500px;
+}
+.Category-header h3 {
+  margin-top: 25vh;
+  margin-bottom: 2vh;
+  font-size: 30px;
+  font-family: "Roboto";
+  text-align: center;
+}
+.category {
+  display: flex;
+  flex-wrap: wrap;
+}
+.category-banner img {
+  width: 720px;
+  height: 300px;
+}
+.category-banner img:hover {
+  transition: 0.2s ease transform;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  height: 200px;
+  background-color: #faf9f9;
+  padding: 10px 25px;
+}
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+}
+.logo-footer-icon i {
+  font-size: 28px;
+  padding-right: 5px;
+}
+@media screen and (max-width: 500px) {
+  .heroImg img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .para {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    line-height: 1;
+  }
+  .para h2 {
+    font-size: 25px;
+  }
+  .para h4 {
+    font-size: 15px;
+  }
+  .heroImg {
+    overflow: hidden;
+  }
+  .trend {
+    display: none;
+  }
+
+  .logos ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner {
+    padding: 0 10px;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  .image-banner img {
+    width: 100%;
+    height: auto;
+    object-position: -29px;
+  }
+  .logos ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card small {
+    display: block;
+  }
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .category {
+    padding: 0 10px;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  .category-banner img {
+    width: 100%;
+    height: auto;
+  }
+}
