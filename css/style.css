@@ -215,6 +215,12 @@
   .logos ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+  .logos li img {
+    height: 30px;
+    width: 30px;
   }
   .banner {
     padding: 0 10px;
@@ -225,10 +231,6 @@
     width: 100%;
     height: auto;
     object-position: -29px;
-  }
-  .logos ul {
-    display: flex;
-    justify-content: center;
   }
 
   .card {
