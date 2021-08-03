@@ -263,4 +263,7 @@
     width: 100%;
     height: auto;
   }
+  .logo-footer h4 {
+    font-size: 15px;
+  }
 }
