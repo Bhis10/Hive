@@ -30,7 +30,7 @@
 
 .para {
   position: absolute;
-  top: 49%;
+  top: 59%;
   left: 3%;
   color: azure;
 }
@@ -45,10 +45,12 @@
   margin-bottom: 10px;
   font-size: 20px;
 }
-.para button {
+.para h5 {
   text-align: center;
   border: 1px solid transparent;
-  padding: 8px 30px;
+  width: 130px;
+  padding: 5px 10px;
+  background-color: rgba(148, 147, 147, 0.507);
   border-radius: 20px;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 2px;
@@ -94,7 +96,7 @@
   flex-direction: column;
   align-items: center;
   height: 400px;
-  background-color: #f4f4f4;
+  background-color: #f1f1f15b;
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -110,6 +112,7 @@
   padding: 6px 20px;
   font-weight: 600;
   border: 1px solid grey;
+  background-color: #f1f1f15b;
 }
 
 .banner {
@@ -204,7 +207,7 @@
   flex-direction: column;
   align-items: center;
   height: 400px;
-  background-color: #f1f1f1;
+  background-color: #f1f1f15b;
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -225,7 +228,7 @@
   }
   .para {
     position: absolute;
-    top: 35%;
+    top: 58%;
     left: 2%;
     line-height: 1;
   }
@@ -250,8 +253,8 @@
   }
   .logos li {
     list-style: none;
-    margin-right: 20px;
-    padding: 10px 10px;
+    margin-right: 30px;
+    padding: 10px 20px;
   }
   .logos li img {
     height: 35px;
@@ -295,5 +298,6 @@
   }
   .logo-footer h4 {
     font-size: 15px;
+    font-weight: 800;
   }
 }
