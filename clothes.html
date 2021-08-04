@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/shoes.css">
+    <script src="./shoes.js" defer></script>
+    <title>Clothes</title>
+</head>
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./Pic/Logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="#category">Category</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+
+          <button class="btn btn-outline-dark" type="submit">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge bg-dark text-white ms-1 rounded-pill"></span>
+          </button>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Pic/pexels-jordan-hyde-1032110.jpg"  alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h3>New Arrivals</h3>
+              <p>Jordan 7 </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./Pic/sneakers-1280.jpg"  alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h3>New Arrivals</h3>
+              <p>Nike Airmax SC</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./Pic/sports-shoe-4378233_640.jpg"  alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h3>New Arrivals</h3>
+              <p>Adidas Stan Smith</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="logos">
+        <h4 id="category">Browse Our Category</h4>
+        <ul>
+          <li data-tab-target="#levis" class="active"><img src="./Pic/levi-s-7.svg"></li>
+          <li data-tab-target="#jordan"><img src="./Pic/icons8-air-jordan-100.png"></li>
+          <li data-tab-target="#nike"><img src="./Pic/icons8-nike-100.png"></li>
+          <li data-tab-target="#puma"><img src="./Pic/the-north-face-1.svg"></li>
+          <li data-tab-target="#converse"><img src="./Pic/converse.png"></li>
+          <li data-tab-target="#underarmor"><img src="./Pic/under-armour.svg"></li>
+          <li data-tab-target="#addidas"><img src="./Pic/adidas.png"></li>
+        </div>
+
+      
+    <div class="active" id="levis" data-tab-content>
+        <div class="shoe-container">
+          <div class="image">
+           <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+            <div class="movie-desp">
+              <h3>Levis</h3>
+              <h5>£100</h5>
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="image">
+            <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+             <div class="movie-desp">
+               <h3>Levis</h3>
+               <h5>£100</h5>
+               <button>ADD TO CART</button>
+             </div>
+           </div>
+
+           <div class="image">
+            <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+             <div class="movie-desp">
+               <h3>Levis</h3>
+               <h5>£100</h5>
+               <button>ADD TO CART</button>
+             </div>
+           </div>
+
+           <div class="image">
+            <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+             <div class="movie-desp">
+               <h3>Levis</h3>
+               <h5>£100</h5>
+               <button>ADD TO CART</button>
+             </div>
+           </div>
+
+           <div class="image">
+            <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+             <div class="movie-desp">
+               <h3>Levis</h3>
+               <h5>£100</h5>
+               <button>ADD TO CART</button>
+             </div>
+           </div>
+
+           <div class="image">
+            <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+             <div class="movie-desp">
+               <h3>Levis</h3>
+               <h5>£100</h5>
+               <button>ADD TO CART</button>
+             </div>
+           </div>
+        </div>
+    </div>
+    
+    <div class="jordan" id="jordan" data-tab-content>
+      <div class="shoe-container">
+        <div class="image">
+         <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
+          <div class="movie-desp">
+            <h3>Jordan</h3>
+            <h5>£100</h5>
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+           <div class="movie-desp">
+             <h3>Jordan</h3>
+             <h5>£100</h5>
+             <button>ADD TO CART</button>
+           </div>
+         </div>
+
+         <div class="image">
+          <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+           <div class="movie-desp">
+             <h3>Jordan</h3>
+             <h5>£100</h5>
+             <button>ADD TO CART</button>
+           </div>
+         </div>
+
+         <div class="image">
+          <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+           <div class="movie-desp">
+             <h3>Jordan</h3>
+             <h5>£100</h5>
+             <button>ADD TO CART</button>
+           </div>
+         </div>
+
+         <div class="image">
+          <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+           <div class="movie-desp">
+             <h3>Jordan</h3>
+             <h5>£100</h5>
+             <button>ADD TO CART</button>
+           </div>
+         </div>
+
+         <div class="image">
+          <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+           <div class="movie-desp">
+             <h3>Jordan</h3>
+             <h5>£100</h5>
+             <button>ADD TO CART</button>
+           </div>
+         </div>
+      </div>
+  </div>
+
+  <div class="nike" id="nike" data-tab-content>
+    <div class="shoe-container">
+      <div class="image">
+       <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
+        <div class="movie-desp">
+          <h3>Nike</h3>
+          <h5>£100</h5>
+          <button>ADD TO CART</button>
+        </div>
+      </div>
+
+      <div class="image">
+        <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+         <div class="movie-desp">
+           <h3>Nike</h3>
+           <h5>£100</h5>
+           <button>ADD TO CART</button>
+         </div>
+       </div>
+
+       <div class="image">
+        <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+         <div class="movie-desp">
+           <h3>Nike</h3>
+           <h5>£100</h5>
+           <button>ADD TO CART</button>
+         </div>
+       </div>
+
+       <div class="image">
+        <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+         <div class="movie-desp">
+           <h3>Nike</h3>
+           <h5>£100</h5>
+           <button>ADD TO CART</button>
+         </div>
+       </div>
+
+       <div class="image">
+        <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+         <div class="movie-desp">
+           <h3>Nike</h3>
+           <h5>£100</h5>
+           <button>ADD TO CART</button>
+         </div>
+       </div>
+
+       <div class="image">
+        <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+         <div class="movie-desp">
+           <h3>Nike</h3>
+           <h5>£100</h5>
+           <button>ADD TO CART</button>
+         </div>
+       </div>
+    </div>
+</div>
+
+<div class="puma" id="puma" data-tab-content>
+  <div class="shoe-container">
+    <div class="image">
+     <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
+      <div class="movie-desp">
+        <h3>Puma</h3>
+        <h5>£100</h5>
+        <button>ADD TO CART</button>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Puma</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Puma</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Puma</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Puma</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Puma</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+  </div>
+</div>
+
+
+
+
+<div class="underarmor" id="underarmor" data-tab-content>
+  <div class="shoe-container">
+    <div class="image">
+     <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
+      <div class="movie-desp">
+        <h3>DC</h3>
+        <h5>£100</h5>
+        <button>ADD TO CART</button>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>DC</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>DC</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>DC</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>DC</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>DC</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+  </div>
+</div>
+
+<div class="addidas" id="addidas" data-tab-content>
+  <div class="shoe-container">
+    <div class="image">
+     <img src="./Pic/universe-1772248_640.jpg" alt=""> </a>
+      <div class="movie-desp">
+        <h3>Addidas</h3>
+        <h5>£100</h5>
+        <button>ADD TO CART</button>
+       </div>
+    </div>
+
+    <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Addidas</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Addidas</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+     
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Addidas</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Addidas</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Addidas</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+  </div>
+</div>
+
+<div class="vans" id="vans" data-tab-content>
+  <div class="shoe-container">
+    <div class="image">
+     <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
+      <div class="movie-desp">
+        <h3>Vans</h3>
+        <h5>£100</h5>
+        <button>ADD TO CART</button>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Vans</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Vans</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Vans</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Vans</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Vans</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+  </div>
+</div>
+
+<div class="jordan" id="jordan" data-tab-content>
+  <div class="shoe-container">
+    <div class="image">
+     <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
+      <div class="movie-desp">
+        <h3>Jordan</h3>
+        <h5>£100</h5>
+        <button>ADD TO CART</button>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+  </div>
+</div>
+
+<div class="jordan" id="jordan" data-tab-content>
+  <div class="shoe-container">
+    <div class="image">
+     <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
+      <div class="movie-desp">
+        <h3>Jordan</h3>
+        <h5>£100</h5>
+        <button>ADD TO CART</button>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+
+     <div class="image">
+      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
+       <div class="movie-desp">
+         <h3>Jordan</h3>
+         <h5>£100</h5>
+         <button>ADD TO CART</button>
+       </div>
+     </div>
+  </div>
+</div>
+
+
+
+    <div class="footer">
+      <div class="logo-footer">
+        <h4>Shopping with HIVE</h4>
+        <small>Size Guides</small>
+        <small>Find Store</small>
+        <small>My Order</small>
+      </div>
+
+      <div class="logo-footer">
+        <h4>Customer Care</h4>
+        <small>Delivery & Return</small>
+        <small>Help & Contact</small>
+        <small>Terms & Condition</small>
+      </div>
+      
+      <div class="logo-footer">
+        <h4>Follow Us</h4>
+        <small><i class="fab fa-facebook-square"></i></small>
+        <small><i class="fab fa-twitter-square"></i></small>
+        <small><i class="fab fa-instagram"></i></small>
+      </div>
+    </div>
+  
+  
+  
+          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

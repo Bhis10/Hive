@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: grey;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 100px;
+}
+
+.shoe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  gap: 50px 20px;
+  place-content: center;
+  margin-top: 20px;
+}
+.image {
+  height: 320px;
+  width: 400px;
+  background-color: #f1f1f15b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image img {
+  width: 400px;
+  height: 200px;
+  object-position: center;
+}
+.movie-desp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #575555;
+  font-family: "Poppins", sans-serif;
+}
+.movie-desp button {
+  color: rgb(70, 69, 69);
+  text-align: center;
+  border: 1px solid transparent;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  padding: 15px;
+  background-color: #f1f1f15b;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logos h4 {
+  font-size: 20px;
+}
+.logos ul {
+  display: flex;
+}
+.logos li {
+  list-style: none;
+  margin-right: 20px;
+  padding: 10px 30px;
+}
+.logos li:hover {
+  transition: 0.3s ease transform;
+  cursor: pointer;
+  transform: scale(1.4);
+}
+.logos li img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  height: 200px;
+  background-color: #faf9f9;
+  padding: 0 5px;
+  font-family: "Poppins", sans-serif;
+}
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+}
+.logo-footer small i {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+}
+[data-tab-content] {
+  display: none;
+}
+.active[data-tab-content] {
+  display: grid;
+}
+.carousel-item {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 500px;
+  filter: brightness(65%);
+}
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 500px) {
+  .shoe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 374px));
+    place-content: center;
+  }
+  .image {
+    height: 320px;
+    width: 374px;
+
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .logos h4 {
+    display: none;
+  }
+
+  .logos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+  .logos li {
+    list-style: none;
+  }
+  .logos li img {
+    height: 30px;
+    width: 25px;
+  }
+  .logo-footer h4 {
+    font-size: 15px;
+  }
+  .image {
+    border-radius: 0;
+  }
+}
