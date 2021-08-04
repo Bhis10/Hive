@@ -118,6 +118,7 @@
 .banner {
   display: flex;
 }
+
 .image-banner img {
   width: 720px;
   height: 300px;
