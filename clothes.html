@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/shoes.css">
+    <link rel="stylesheet" href="./css/clothes.css">
     <script src="./shoes.js" defer></script>
     <title>Clothes</title>
 </head>
@@ -27,7 +27,7 @@
             </div>
           </div>
 
-          <button class="btn btn-outline-dark" type="submit">
+          <button class="btn btn-outline-dark" id="button" type="submit">
             <i class="fas fa-shopping-cart"></i>
             <span class="badge bg-dark text-white ms-1 rounded-pill"></span>
           </button>
@@ -83,8 +83,7 @@
           <li data-tab-target="#levis" class="active"><img src="./Pic/levi-s-7.svg"></li>
           <li data-tab-target="#jordan"><img src="./Pic/icons8-air-jordan-100.png"></li>
           <li data-tab-target="#nike"><img src="./Pic/icons8-nike-100.png"></li>
-          <li data-tab-target="#puma"><img src="./Pic/the-north-face-1.svg"></li>
-          <li data-tab-target="#converse"><img src="./Pic/converse.png"></li>
+          <li data-tab-target="#northface"><img src="./Pic/the-north-face-1.svg"></li>
           <li data-tab-target="#underarmor"><img src="./Pic/under-armour.svg"></li>
           <li data-tab-target="#addidas"><img src="./Pic/adidas.png"></li>
         </div>
@@ -93,9 +92,9 @@
     <div class="active" id="levis" data-tab-content>
         <div class="shoe-container">
           <div class="image">
-           <img src="./Pic/levi-s-7.svg" alt=""> </a>
-            <div class="movie-desp">
-              <h3>Levis</h3>
+           <img src="./Pic/NIKE_AIR_JORDAN_4_RETRO_BRED-mini.jpg" alt=""> </a>
+            <div class="clothing-desp">
+              <h4>Levis </h4>
               <h5>£100</h5>
               <button>ADD TO CART</button>
             </div>
@@ -103,7 +102,7 @@
 
           <div class="image">
             <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-             <div class="movie-desp">
+             <div class="clothing-desp">
                <h3>Levis</h3>
                <h5>£100</h5>
                <button>ADD TO CART</button>
@@ -112,7 +111,7 @@
 
            <div class="image">
             <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-             <div class="movie-desp">
+             <div class="clothing-desp">
                <h3>Levis</h3>
                <h5>£100</h5>
                <button>ADD TO CART</button>
@@ -121,7 +120,7 @@
 
            <div class="image">
             <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-             <div class="movie-desp">
+             <div class="clothing-desp">
                <h3>Levis</h3>
                <h5>£100</h5>
                <button>ADD TO CART</button>
@@ -130,7 +129,7 @@
 
            <div class="image">
             <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-             <div class="movie-desp">
+             <div class="clothing-desp">
                <h3>Levis</h3>
                <h5>£100</h5>
                <button>ADD TO CART</button>
@@ -139,7 +138,7 @@
 
            <div class="image">
             <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-             <div class="movie-desp">
+             <div class="clothing-desp">
                <h3>Levis</h3>
                <h5>£100</h5>
                <button>ADD TO CART</button>
@@ -152,7 +151,7 @@
       <div class="shoe-container">
         <div class="image">
          <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
-          <div class="movie-desp">
+          <div class="clothing-desp">
             <h3>Jordan</h3>
             <h5>£100</h5>
             <button>ADD TO CART</button>
@@ -161,7 +160,7 @@
 
         <div class="image">
           <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-           <div class="movie-desp">
+           <div class="clothing-desp">
              <h3>Jordan</h3>
              <h5>£100</h5>
              <button>ADD TO CART</button>
@@ -170,7 +169,7 @@
 
          <div class="image">
           <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-           <div class="movie-desp">
+           <div class="clothing-desp">
              <h3>Jordan</h3>
              <h5>£100</h5>
              <button>ADD TO CART</button>
@@ -179,7 +178,7 @@
 
          <div class="image">
           <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-           <div class="movie-desp">
+           <div class="clothing-desp">
              <h3>Jordan</h3>
              <h5>£100</h5>
              <button>ADD TO CART</button>
@@ -188,7 +187,7 @@
 
          <div class="image">
           <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-           <div class="movie-desp">
+           <div class="clothing-desp">
              <h3>Jordan</h3>
              <h5>£100</h5>
              <button>ADD TO CART</button>
@@ -197,7 +196,7 @@
 
          <div class="image">
           <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-           <div class="movie-desp">
+           <div class="clothing-desp">
              <h3>Jordan</h3>
              <h5>£100</h5>
              <button>ADD TO CART</button>
@@ -210,7 +209,7 @@
     <div class="shoe-container">
       <div class="image">
        <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
-        <div class="movie-desp">
+        <div class="clothing-desp">
           <h3>Nike</h3>
           <h5>£100</h5>
           <button>ADD TO CART</button>
@@ -219,7 +218,7 @@
 
       <div class="image">
         <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-         <div class="movie-desp">
+         <div class="clothing-desp">
            <h3>Nike</h3>
            <h5>£100</h5>
            <button>ADD TO CART</button>
@@ -228,7 +227,7 @@
 
        <div class="image">
         <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-         <div class="movie-desp">
+         <div class="clothing-desp">
            <h3>Nike</h3>
            <h5>£100</h5>
            <button>ADD TO CART</button>
@@ -237,7 +236,7 @@
 
        <div class="image">
         <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-         <div class="movie-desp">
+         <div class="clothing-desp">
            <h3>Nike</h3>
            <h5>£100</h5>
            <button>ADD TO CART</button>
@@ -246,7 +245,7 @@
 
        <div class="image">
         <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-         <div class="movie-desp">
+         <div class="clothing-desp">
            <h3>Nike</h3>
            <h5>£100</h5>
            <button>ADD TO CART</button>
@@ -255,7 +254,7 @@
 
        <div class="image">
         <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-         <div class="movie-desp">
+         <div class="clothing-desp">
            <h3>Nike</h3>
            <h5>£100</h5>
            <button>ADD TO CART</button>
@@ -272,7 +271,7 @@
   <div class="shoe-container">
     <div class="image">
      <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
-      <div class="movie-desp">
+      <div class="clothing-desp">
         <h3>UnderArmor</h3>
         <h5>£100</h5>
         <button>ADD TO CART</button>
@@ -281,7 +280,7 @@
 
     <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>UnderArmor</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -290,7 +289,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>UnderArmor</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -299,7 +298,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>UnderArmor</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -308,7 +307,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>UnderArmor</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -317,7 +316,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>UnderArmor</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -330,7 +329,7 @@
   <div class="shoe-container">
     <div class="image">
      <img src="./Pic/universe-1772248_640.jpg" alt=""> </a>
-      <div class="movie-desp">
+      <div class="clothing-desp">
         <h3>Addidas</h3>
         <h5>£100</h5>
         <button>ADD TO CART</button>
@@ -339,7 +338,7 @@
 
     <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Addidas</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -348,7 +347,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Addidas</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -357,7 +356,7 @@
      
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Addidas</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -366,7 +365,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Addidas</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -375,7 +374,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Addidas</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -384,11 +383,11 @@
   </div>
 </div>
 
-<div class="vans" id="vans" data-tab-content>
+<div class="northface" id="northface" data-tab-content>
   <div class="shoe-container">
     <div class="image">
      <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
-      <div class="movie-desp">
+      <div class="clothing-desp">
         <h3>Vans</h3>
         <h5>£100</h5>
         <button>ADD TO CART</button>
@@ -397,7 +396,7 @@
 
     <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Vans</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -406,7 +405,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Vans</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -415,7 +414,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Vans</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -424,7 +423,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Vans</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -433,7 +432,7 @@
 
      <div class="image">
       <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
+       <div class="clothing-desp">
          <h3>Vans</h3>
          <h5>£100</h5>
          <button>ADD TO CART</button>
@@ -442,121 +441,6 @@
   </div>
 </div>
 
-<div class="jordan" id="jordan" data-tab-content>
-  <div class="shoe-container">
-    <div class="image">
-     <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
-      <div class="movie-desp">
-        <h3>Jordan</h3>
-        <h5>£100</h5>
-        <button>ADD TO CART</button>
-      </div>
-    </div>
-
-    <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-
-     <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-
-     <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-
-     <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-
-     <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-  </div>
-</div>
-
-<div class="jordan" id="jordan" data-tab-content>
-  <div class="shoe-container">
-    <div class="image">
-     <img src="./Pic/nike-5099508_1280.jpg" alt=""> </a>
-      <div class="movie-desp">
-        <h3>Jordan</h3>
-        <h5>£100</h5>
-        <button>ADD TO CART</button>
-      </div>
-    </div>
-
-    <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-
-     <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-
-     <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-
-     <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-
-     <div class="image">
-      <img src="./Pic/kicks-2213619_1920.jpg" alt=""> </a>
-       <div class="movie-desp">
-         <h3>Jordan</h3>
-         <h5>£100</h5>
-         <button>ADD TO CART</button>
-       </div>
-     </div>
-  </div>
-</div>
 
 
 

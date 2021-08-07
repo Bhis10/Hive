@@ -16,39 +16,41 @@
 
 .shoe-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
-  gap: 50px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
+  gap: 20px 30px;
   place-content: center;
   margin-top: 20px;
 }
 .image {
   height: 320px;
-  width: 400px;
+  width: 300px;
   background-color: #f1f1f15b;
   border-radius: 10px;
   overflow: hidden;
 }
 .image img {
-  width: 400px;
+  width: 300px;
   height: 200px;
-  object-position: center;
 }
-.movie-desp {
+.clothing-desp {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #575555;
   font-family: "Poppins", sans-serif;
 }
-.movie-desp button {
-  color: rgb(70, 69, 69);
+.clothing-desp button {
+  color: rgb(221, 221, 221);
   text-align: center;
   border: 1px solid transparent;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   width: 100%;
   padding: 15px;
-  background-color: #f1f1f15b;
+  background-color: #3c4ca8fb;
+}
+.clothing-desp button:hover {
+  background-color: #3835d3fb;
 }
 .logos {
   display: flex;
@@ -120,13 +122,12 @@ h5 {
 @media screen and (max-width: 500px) {
   .shoe-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 374px));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
     place-content: center;
   }
   .image {
     height: 320px;
-    width: 374px;
-
+    width: 200px;
     border-radius: 10px;
     overflow: hidden;
   }
