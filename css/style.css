@@ -104,7 +104,6 @@
   flex-direction: column;
   align-items: center;
   height: 400px;
-
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -170,6 +169,7 @@
 }
 .category {
   display: flex;
+  width: 100%;
   position: relative;
 }
 
@@ -322,28 +322,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0;
   }
   .logos li {
     list-style: none;
     margin-left: 10px;
-    padding: 10px 20px;
+    padding: 18px;
   }
   .logos li img {
     height: 35px;
-    width: 35px;
+    width: 40px;
   }
   .banner {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 10px;
     overflow: hidden;
-    margin-left: 20px;
   }
   .image-banner img {
     width: 100%;
     height: auto;
-    object-position: -29px;
   }
 
   .card {
@@ -361,9 +357,7 @@
   .category {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 10px;
     overflow: hidden;
-    margin-left: 20px;
   }
   .category-banner img {
     width: 100%;
@@ -373,28 +367,26 @@
     font-size: 15px;
     font-weight: 800;
   }
-  .btn-clothes{
-  display: none;
-  position: absolute;
-  top: 30%;
-  left: 33%;
-  border: 1px solid white;
-  border-radius: 20px;
-  padding: 5px 30px;
-  background-color: transparent;
-  color: rgb(209, 207, 207);
-}
-.btn-category{
-  display: none;
-  position: absolute;
-  top: 80%;
-  left: 33%;
-  border: 1px solid whitesmoke;
-  border-radius: 20px;
-  padding: 5px 30px;
-  background-color: transparent;
-  color: rgb(209, 207, 207);
-}
-
+  .btn-clothes {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 30px;
+    background-color: transparent;
+    color: rgb(209, 207, 207);
+  }
+  .btn-category {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 33%;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    padding: 5px 30px;
+    background-color: transparent;
+    color: rgb(209, 207, 207);
   }
 }
