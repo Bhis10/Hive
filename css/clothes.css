@@ -23,14 +23,15 @@
 }
 .image {
   height: 320px;
-  width: 300px;
+  width: 350px;
   background-color: #f1f1f15b;
   border-radius: 10px;
   overflow: hidden;
 }
 .image img {
-  width: 300px;
+  width: 350px;
   height: 200px;
+  object-position: center;
 }
 .clothing-desp {
   display: flex;
@@ -130,6 +131,10 @@ h5 {
     width: 200px;
     border-radius: 10px;
     overflow: hidden;
+  }
+  .image img {
+    width: 200px;
+    object-position: center;
   }
   .logos h4 {
     display: none;

@@ -16,7 +16,13 @@
   width: 100px;
 }
 .log {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+.log small {
+  font-family: "Poppins", sans-serif;
+  padding-left: 5px;
+  color: grey;
+  font-size: 1rem;
 }
 .container-hero {
   position: relative;
@@ -221,24 +227,6 @@
   cursor: pointer;
   transform: scale(1.1);
   filter: brightness(50%);
-}
-.button {
-  position: absolute;
-  width: 500px;
-  left: 0;
-  top: 180px;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-
-.button a {
-  width: 200px;
-  padding: 12px 48px;
-  text-align: center;
-  color: white;
-  border: solid 2px white;
-  z-index: 1;
 }
 
 .footer {
