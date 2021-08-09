@@ -17,19 +17,19 @@
 .shoe-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
-  gap: 20px 30px;
+  gap: 30px;
   place-content: center;
   margin-top: 20px;
 }
 .image {
   height: 320px;
-  width: 350px;
+  width: 250px;
   background-color: #f1f1f15b;
   border-radius: 10px;
   overflow: hidden;
 }
 .image img {
-  width: 350px;
+  width: 250px;
   height: 200px;
   object-position: center;
 }
