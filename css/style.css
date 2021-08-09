@@ -21,7 +21,6 @@
 .log small {
   font-family: "Poppins", sans-serif;
   padding-left: 5px;
-  color: grey;
   font-size: 1rem;
 }
 .container-hero {
@@ -47,12 +46,14 @@
   font-family: "Bebas Neue", cursive;
   font-size: 50px;
   color: azure;
+  animation-duration: 3s;
 }
 .para h4 {
   font-family: "Roboto" Arial, Helvetica, sans-serif;
   color: rgb(228, 228, 228);
   margin-bottom: 10px;
   font-size: 20px;
+  animation-duration: 3s;
 }
 .para h5 {
   text-align: center;
@@ -63,6 +64,7 @@
   border-radius: 20px;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 2px;
+  animation-duration: 3s;
 }
 .logos {
   display: flex;
@@ -120,11 +122,11 @@
 }
 
 .cards button {
-  color: rgb(17, 17, 17);
   margin-top: 10px;
   padding: 6px 20px;
   font-weight: 600;
   border: 1px solid transparent;
+  background: none;
 }
 .cards small {
   font-size: 1rem;
@@ -145,7 +147,6 @@
 }
 .owl-dot {
   display: inline-block;
-  background-color: #f4f4f4;
   opacity: 0.8;
   margin: 0 10px;
   border-radius: 50%;
@@ -175,7 +176,7 @@
 }
 .category {
   display: flex;
-  width: 100%;
+  justify-content: center;
   position: relative;
 }
 
@@ -229,27 +230,6 @@
   filter: brightness(50%);
 }
 
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 30vh;
-  height: 200px;
-  background-color: #faf9f9;
-  padding: 0 5px;
-  font-family: "Poppins", sans-serif;
-}
-.logo-footer {
-  display: flex;
-  flex-direction: column;
-}
-.logo-footer small i {
-  display: flex;
-  justify-content: center;
-  font-size: 20px;
-  align-items: center;
-}
-
 .brand-container {
   position: relative;
   margin-top: 50px;
@@ -280,6 +260,27 @@
   height: 300px;
   width: 300px;
 }
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30vh;
+  height: 200px;
+  background-color: #faf9f9;
+  padding: 0 5px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+}
+.logo-footer small i {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+}
 
 @media screen and (max-width: 500px) {
   .heroImg img {
@@ -292,6 +293,7 @@
     top: 58%;
     left: 2%;
     line-height: 1;
+    animation-duration: 10s;
   }
   .para h2 {
     font-size: 25px;

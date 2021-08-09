@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -50,11 +52,13 @@
     </div>
 
     <div class="para">
-      <h2>Give Your Looks A New Style</h2>
-      <h4>Hive Street Wear and Sneaker Hub</h4>
-      <h5>Explore</h5>
+      
+      <h2 class="animated slideInDown">Give Your Looks A New Style</h2>
+      <h4 class="animated slideInLeft">Hive Street Wear and Sneaker Hub</h4>
+      <h5 class="animated slideInUp">Explore</h5>
     </div>
   </div>
+  
   <!--End of Heroimage section !--->
 
 
@@ -74,15 +78,19 @@
 
   <!--End of logo section !--->
 
-
+  
   <div class="banner">
+    <div data-aos="fade-right">
     <div class="image-banner">
       <img src="./Pic/dock-1846008_1920.jpg">
     </div>
-
+  </div>
+  
     <div class="image-banner">
+      <div data-aos="fade-left">
       <img src="./Pic/shoes-1246691_1920.jpg">
     </div>
+  </div>
   </div>
 
 
@@ -92,35 +100,41 @@
   <div class="img-container">
     <h2>Trending....</h2>
     <div id="slider" class="owl-carousel">
-
+      <div data-aos="fade-right">
       <div class="cards">
         <img class="img-responsive" src="./Pic/pexels-jordan-hyde-1032110.jpg" alt="">
         <small>Yeezy</small>
         <small>£90</small>
         <button>View More</button>
       </div>
-
+    </div>
+    <div data-aos="fade-up">
       <div class="cards">
         <img class="img-responsive" src="./Pic/sneakers-1280.jpg" alt="">
         <small>Jordan</small>
         <small>£90</small>
         <button>View More</button>
       </div>
+    </div>
 
+    <div data-aos="fade-left">
       <div class="cards">
+        
         <img class="img-responsive" src="./Pic/nike-3957127_1280.jpg" alt="">
         <small>Nike</small>
         <small>£90</small>
         <button>View More</button>
       </div>
-
+    </div>
+    <div data-aos="fade-left">
       <div class="cards">
         <img class="img-responsive" src="./Pic/NIKE_AIR_JORDAN_4_RETRO_BRED-mini.jpg" alt="">
         <small>Jordan</small>
         <small>£90</small>
         <button>View More</button>
       </div>
-
+    </div>
+    <div data-aos="fade-up">
       <div class="cards">
         <img class="img-responsive" src="./Pic/nike-5099508_1280.jpg" alt="">
         <small>Nike</small>
@@ -128,6 +142,7 @@
         <button>View More</button>
       </div>
     </div>
+  </div>
   </div>
   <!--End of carousel section !--->
 
@@ -144,11 +159,13 @@
       <button class="btn-clothes">CLOTHING</button>
      </div>
     
+    
     <div class="category-banner">
       <a href="#"> <img src="./Pic/pexels-deybson-mallony-4914808.jpg"></a>
       <button class="btn-category btn-cat">SHOES</button>
       </div>
-  </div>
+    </div>
+  
 
   <!--End of  Catergory image section !--->
 
@@ -193,6 +210,7 @@
   <!--Footer section !--->
 
   <div class="footer">
+    
     <div class="logo-footer">
       <h4>Shopping with HIVE</h4>
       <small>Size Guides</small>
@@ -226,6 +244,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="./index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    offset: 400,
+      duration: 1000
+    });
+  </script>
 
 </body>
 
