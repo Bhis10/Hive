@@ -167,9 +167,10 @@
 #slider {
   height: 400px;
 }
+
 .Category-header h3 {
   margin-top: 25vh;
-  margin-bottom: 2vh;
+  margin-bottom: 5vh;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -282,7 +283,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .heroImg img {
     width: 100%;
     height: auto;
@@ -328,6 +329,7 @@
     overflow: hidden;
   }
   .image-banner img {
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
   }
