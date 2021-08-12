@@ -181,6 +181,7 @@
   position: relative;
 }
 
+
 .category-banner img {
   width: 720px;
   height: 300px;
@@ -313,15 +314,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
+    margin: 0;
   }
   .logos li {
     list-style: none;
-    margin-left: 10px;
-    padding: 18px;
+    padding: 10px;
   }
   .logos li img {
     height: 35px;
-    width: 40px;
+    width: 30px;
   }
   .banner {
     display: flex;
